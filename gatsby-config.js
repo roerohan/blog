@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Nerd's Notebook`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Rohan`,
+      summary: `who is a tech aficionado with a knack for turning 1s and 0s into 'Aha!' moments, and a hobbyist philosopher pondering the mysteries of the digital universe.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Explore the intersection of technology and life through the lens of a passionate tech enthusiast and digital explorer.`,
+    siteUrl: `https://blog-roerohan.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `roerohan`,
     },
   },
   plugins: [
