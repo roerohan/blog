@@ -17,9 +17,12 @@ const Bio = () => {
           author {
             name
             summary
+            extendedSummary
           }
           social {
             twitter
+            linkedin
+            github
           }
         }
       }
@@ -43,13 +46,45 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
-        </p>
+        <pre>
+          <pre>
+            Hi, I'm <strong>{author.name}</strong>.
+          </pre>
+          <br />
+          <pre>{author?.summary || null}</pre>
+          <br />
+          <pre
+            dangerouslySetInnerHTML={{ __html: author?.extendedSummary }}
+          ></pre>
+          <br />
+          <pre>
+            You can follow me on{" "}
+            <a
+              href={`https://twitter.com/${social?.twitter || ``}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter (X)
+            </a>
+            ,{" "}
+            <a
+              href={`https://linkedin.com/in/${social?.linkedin || ``}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            , and{" "}
+            <a
+              href={`https://github.com/${social?.github || ``}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            .
+          </pre>
+        </pre>
       )}
     </div>
   )

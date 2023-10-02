@@ -7,17 +7,23 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
 module.exports = {
   siteMetadata: {
     title: `Nerd's Notebook`,
     author: {
       name: `Rohan`,
-      summary: `who is a tech aficionado with a knack for turning 1s and 0s into 'Aha!' moments, and a hobbyist philosopher pondering the mysteries of the digital universe.`,
+      summary: `By day, I'm a professional problem solver, tackling the intricacies of Software Engineering.
+When the sun settles, I transform into a part-time meme enthusiast, finding humor in life's quirks and curiosities.`,
+      extendedSummary: `I work as a full-stack developer at a YC W'21 funded, Bangalore-based startup called <a href="https://dyte.io" target="_blank" rel="noreferrer">Dyte</a>. I also freelance on <a href="https://www.upwork.com/freelancers/~01a03245e7615b2e2a" target="_blank" rel="noreferrer">Upwork</a>.
+Here are some articles I've written in the past on <a href="https://medium.com/@roerohan" target="_blank" rel="noreferrer">Medium</a>, <a href="https://dev.to/roerohan" target="_blank" rel="noreferrer">dev.to</a>, and <a href="https://dyte.io/blog/author/roerohan/" target="_blank" rel="noreferrer">Dyte's blog</a>.`,
     },
     description: `Explore the intersection of technology and life through the lens of a passionate tech enthusiast and digital explorer.`,
     siteUrl: `https://blog-roerohan.netlify.app/`,
     social: {
       twitter: `roerohan`,
+      linkedin: `roerohan`,
+      github: `roerohan`,
     },
   },
   plugins: [
