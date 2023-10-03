@@ -57,6 +57,6 @@ It's an experiment that has no unfavorable outcome - if I enjoy this, well and g
 
 I may not have convinced you to start your blog, but sike, I never wanted to. I discussed why starting a blog might be a great idea, but it's not a piece of cake. Writing is a hard, unpaid (for most people), time-consuming, and lonely pursuit. It's a marathon, not a sprint. Before you start, you should be honest to yourself about whether the effort you put in is worth it for you.
 
-A lot of my thoughts were inspired by [Ali Abdaal's YouTube video](https://www.youtube.com/watch?v=vyVpRiqOvt4) about writing online, make sure to check it out! If you find value in this article, feel free to share it with others who might. You can reach out to me on my social handles listed below if you want to share some feedback, or just/home/roerohan/Downloads/Dump/blog_meme.jpeg want to chat.
+A lot of my thoughts were inspired by [Ali Abdaal's YouTube video](https://www.youtube.com/watch?v=vyVpRiqOvt4) about writing online, make sure to check it out! If you find value in this article, feel free to share it with others who might. You can reach out to me on my social handles listed below if you want to share some feedback, or just want to chat.
 
 ![That's a cute cat](./blog_meme.png)
