@@ -1,7 +1,7 @@
 ---
 title: Why I started blogging, and why you should too
 date: "2023-10-03T20:08:23.037Z"
-description: "8 reasons to start a blog, irrespective of whether you're an expert at the subject."
+description: "5 reasons why I started blogging, and why you should too."
 ---
 
 "What the hell should I write about?" \
