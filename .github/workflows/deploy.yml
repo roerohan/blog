@@ -19,13 +19,13 @@ jobs:
       - name: Setup environment variables
         run: echo "PUBLIC_URL=/$(basename $(pwd))" >> $GITHUB_ENV
 
-      - name: npm install
+      - name: npm install, build
         run: |
           npm install
           npm run build
 
       - name: Deploy to github.io
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: JamesIves/github-pages-deploy-action@4
         with:
           branch: gh-pages
           folder: public
