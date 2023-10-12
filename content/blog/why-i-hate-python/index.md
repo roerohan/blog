@@ -1,8 +1,7 @@
---
+---
 title: I hate Python
 date: "2023-10-12T19:29:11.017Z"
 description: "A rant about the problems I've encountered while working with Python."
-
 ---
 
 Many experienced programmers love Python, and it baffles me. Python is often hailed as a versatile and powerful language and has a devoted following, especially among developers who have just started their journey.
