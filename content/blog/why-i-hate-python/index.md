@@ -72,4 +72,4 @@ Although Python is undeniably robust and powerful, I would prefer not to use it 
 
 I've written a fair amount of Python, and I've come to dislike it only recently when I had to build and maintain a large project in Python. Python will still be my go-to language for scripting, and for building small weekend projects.
 
-If you've reached this far, you probably share similar sentiments and frustration. If you'd like to dive deeper into this conversation or have thoughts to share, please feel free to reach out!
+If you've reached this far, you probably share similar sentiments and frustration. If yes, you might want to check [this](https://github.com/yugr/python-hate) out. If you'd like to dive deeper into this conversation or have thoughts to share, please feel free to reach out!
