@@ -1,7 +1,8 @@
----
+--
 title: I hate Python
 date: "2023-10-12T19:29:11.017Z"
 description: "A rant about the problems I've encountered while working with Python."
+
 ---
 
 Many experienced programmers love Python, and it baffles me. Python is often hailed as a versatile and powerful language and has a devoted following, especially among developers who have just started their journey.
@@ -34,7 +35,7 @@ Speaking of verbosity, I'm tired of importing modules with absolute paths starti
 
 ## Global namespace pollution and dynamic typing
 
-While I'm not a fan of dynamic typing, I can't complain much since I develop a lot of things in Javascript (actually, Typescript). Admittedly, Typescript's type system is not the best, but somehow it feels like a good middle-ground between statically typed and dynamically typed languages. It enforces (somewhat) types wherever you want them to be enforced. Writing Python annotations seems like a waste of time. If you're not using a static type-checker like [mypy](https://mypy.readthedocs.io/en/stable/), you might as well not write any annotations, as they wouldn't do anything other than providing some intellisense (which isn't always accurate either).
+While I'm not a fan of dynamic typing, I can't complain much since I develop a lot of things in Javascript (actually, Typescript). Admittedly, Typescript's type system is not the best, but somehow it feels like a good middle-ground between statically typed and dynamically typed languages. It enforces (somewhat) types wherever you want them to be enforced. Writing Python annotations seems like a waste of time. If you're not using a static type-checker like [mypy](https://mypy.readthedocs.io/en/stable/), you might as well not write any annotations, as they wouldn't do anything other than provide some intellisense (which isn't always accurate either).
 
 The global namespace pollution, however, is annoying to me. If `sorted` is an in-built method, I should not be able to overwrite it. Somehow, this is valid Python code:
 
@@ -55,9 +56,9 @@ I'm sure you can see how `import *` may pollute the namespace. It's not uncommon
 
 ## Dependency management
 
-It is painful to set up clean and isolated package management in Python. Most people just install all their dependencies globally and later run into clashes and nuke their entire Python environment. Some just accept their fate and set up a [virtual environment](https://docs.python.org/3/library/venv.html), but then manage their `requirements.txt` files manually as `pip freeze` is a nightmare. It will fix versions of the packages you didn't even want to install. I've faced issues where the `requirements.txt` file generated on my Linux system couldn't be installed by `pip` on my friend's Mac. Now, you can use something like `pipreqs`, but what's the point of having dependency management if you have to install a different library anyway. In fact, most Linux users stick to installing Python packages using their distro's package manager (`pacman` for example), so that they do not have to deal with `pip`. There is no consistency in package management, and the absence of a lock file might be one of the biggest reasons for it. The absence of native locking mechanisms leaves room for potential discrepancies between development and production environments.
+It is painful to set up clean and isolated package management in Python. Most people just install all their dependencies globally and later run into clashes and nuke their entire Python environment. Some just accept their fate and set up a [virtual environment](https://docs.python.org/3/library/venv.html), but then manage their `requirements.txt` files manually as `pip freeze` is a nightmare. It will fix versions of the packages you didn't even want to install. I've faced issues where the `requirements.txt` file generated on my Linux system couldn't be installed by `pip` on my friend's Mac. Now, you can use something like `pipreqs`, but what's the point of having dependency management if you have to install a different library anyway? In fact, most Linux users stick to installing Python packages using their distro's package manager (`pacman` for example), so that they do not have to deal with `pip`. There is no consistency in package management, and the absence of a lock file might be one of the biggest reasons for this. The absence of native locking mechanisms leaves room for potential discrepancies between development and production environments.
 
-Developers often turn to third-party tools like pipenv, poetry, or conda to enhance dependency management. While these tools offer valuable features, they can also introduce complexity and may require a learning curve.
+Developers often turn to third-party tools like `pipenv`, `poetry`, or `conda` to enhance dependency management. While these tools offer valuable features, they can also introduce complexity and may require a learning curve.
 
 Python's dependency resolver is not as robust as some other package managers. Resolving complex version constraints and ensuring compatibility between packages can be a daunting task, especially in projects with numerous dependencies; imagine having to do that on your own.
 
