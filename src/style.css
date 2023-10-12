@@ -302,6 +302,9 @@ a:focus {
 }
 
 .bio pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
   font-family: var(--font-body);
   margin-bottom: var(--spacing-0);
 }
