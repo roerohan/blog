@@ -9,6 +9,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
     title: `Nerd's Notebook`,
     author: {
