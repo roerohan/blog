@@ -36,9 +36,13 @@ We use collected data for analytical purposes to better understand our audience 
 
 We do not sell, rent, or disclose your personal information to third parties without your consent, except in the following circumstances:
 
-### 3.1. Service Providers: We may share data with service providers who help us operate and maintain our website or assist with advertising.
+### 3.1. Service Providers
 
-### 3.2. Legal Compliance: We may disclose your information if required by law or when we believe it is necessary to protect our rights, your safety, or the safety of others.
+We may share data with service providers who help us operate and maintain our website or assist with advertising.
+
+### 3.2. Legal Compliance
+
+We may disclose your information if required by law or when we believe it is necessary to protect our rights, your safety, or the safety of others.
 
 ## 4. Your Choices
 
