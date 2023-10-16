@@ -190,9 +190,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-adsense`,
+      resolve: `@w2-yamaguchi/gatsby-plugin-google-adsense`,
       options: {
-        publisherId: `ca-pub-9534757811774250`,
+        publisherId: "ca-pub-9534757811774250", // Required
       },
     },
   ],
