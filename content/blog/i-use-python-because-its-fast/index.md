@@ -22,7 +22,7 @@ However, one aspect in which Python excels is the developer-friendliness (I know
 
 Again, let me be clear. Python **is** slow. But, to be frank, when have you ever noticed that it's slow? Outside of benchmarking, you've probably never had a situation where you felt that a faster language would do the job better. I'm not suggesting that it's a good idea to build a performance product in Python, but most of the time, Python is _fast enough_. If you're building an automation pipeline, or even a REST API to interact with an ML model, I would argue that Python is good enough. If you ever have to deal with graphs and CSVs, I can't think of a better language than Python.
 
-## When should I use Python
+## When should I use Python?
 
 Python has been around for long enough for us to know what we should and should not build with it. I know a lot of developers who hate Python because it's "cool" to hate something slow. Of course, it is our tendency to optimize everything to perfection (as you might have noticed in any Data Structures and Algorithms course), but if you look at it from the user's perspective, they don't care about what language you're using behind the hood as long as it works.
 
