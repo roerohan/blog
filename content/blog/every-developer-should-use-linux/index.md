@@ -4,6 +4,8 @@ date: "2023-10-18T17:00:22.838Z"
 description: "Mastering Linux is not easy. It is often a better choice for developers to learn things the hard way."
 ---
 
+![I want to uninstall my bootloader](./meme.jpeg)
+
 In the world of software development, the choice of the operating system can significantly impact productivity, versatility, and even the creative flow of developers. While there are numerous options available, one operating system consistently stands out.
 
 Using a Linux-based operating system is unquestionably the best decision you can make to bolster your career as a developer. I've heard good things about FreeBSD and other \*nix systems, but I can not advocate for them as I haven't used them. It is worth mentioning that I do not consider MacOS a great choice despite it being a \*nix variant. However, my least favorite "popular OS" for writing code is undeniably Windows.
