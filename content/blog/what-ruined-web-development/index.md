@@ -24,7 +24,7 @@ In the corporate world, it seems that team SPA has dominated over the last few y
 
 It does sound impressive when you illustrate the benefits of using an SPA such as fast navigation, persistent DOM, and client-side state management. However, there's a lot of garbage that accompanies React.
 
-First, it does seem weird that you need to load potentially a megabyte of Javascript just to read a blog. In applications where most of the content is dynamic, it is simply more performant to generate the page on the server and let the client render it, instead of running tens of lines of Javascript to fetch the content, and place it into the correct component.
+First, it does seem weird that you need to load potentially a megabyte of Javascript just to read a blog. In applications where most of the content is dynamic, it is simply more performant to generate the page on the server and let the client render it, instead of running tens of lines of Javascript to fetch the content and place it into the correct component.
 
 Second, a chunk of the population [does not have a good internet connection](https://seasia.co/2019/07/12/rank-of-countries-with-fastest-and-slowest-internet-in-the-world-2019). Sure, downloading your huge Javascript bundle won't affect a portion of your users, however, in case of a poor internet connection your first load performance would be terrible if your website is a SPA.
 
@@ -32,7 +32,7 @@ Third, you have to maintain the same state in 2 places. Yes, I did just mention 
 
 ![state-management](./states-meme.jpg)
 
-Finally, performance. We assume all the React devs out there know how a `useEffect` works, but that's only partially true. A lot of the "reactive" code in SPAs is often unoptimized, leading to a number of unnecessary re-renders. I've seen my laptop's fan turn on while browsing some of the SPAs on Chrome.
+Finally, performance. We assume all the React devs out there know how `useEffect` works, but that's only partially true. A lot of the "reactive" code in SPAs is often unoptimized, leading to a number of unnecessary re-renders. I've seen my laptop's fan turn on while browsing some of the SPAs on Chrome.
 
 Building a SPA is often overkill. It's like providing unnecessary features while harming your website's overall performance. Does that mean MPAs are the way to go?
 
@@ -42,7 +42,7 @@ Building a SPA is often overkill. It's like providing unnecessary features while
 
 The main reason why MPAs are looked down upon is that they're **traditional**. Building a MPA is uncool and not trendy. Many of us would create a monstrous blob of Javascript rather than build with a framework that's not trending.
 
-MPAs typically have faster load times and work without loading any Javascript in most cases. There are a bunch of server-side templating frameworks that you can pick from, like [ejs](https://ejs.co/), [templ](https://github.com/a-h/templ), [tinytemplate](https://crates.io/crates/tinytemplate) and so on. These frameworks exist across all popular languages so you're not restricted to using Javascript for building your web app.
+MPAs typically have faster load times and work without loading any Javascript in most cases. There are a bunch of server-side templating frameworks that you can pick from, like [ejs](https://ejs.co/), [templ](https://github.com/a-h/templ), [tinytemplate](https://crates.io/crates/tinytemplate), and so on. These frameworks exist across all popular languages so you're not restricted to using Javascript for building your web app.
 
 MPAs have their fair share of problems. It is a pain to have any persistent information. Imagine searching on YouTube while a video is playing in the miniplayer. It would not be possible to persist the miniplayer across pages in an MPA.
 
