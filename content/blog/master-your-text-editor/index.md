@@ -4,6 +4,8 @@ date: "2023-10-25T19:37:53.776Z"
 description: "Working online often requires writing and editing text. Learn to type fast, and master a text editor of your choice and boost your productivity."
 ---
 
+![vim-meme](./vim-meme.jpg)
+
 Whether you're a software developer or a technical writer, your primary job is to edit text. It is surprising that most people whose jobs involve editing text do not care about their typing speed or text editor.
 
 ## Improve your typing speed
@@ -33,7 +35,7 @@ Explore other text editors, as they might be better for you. I've used a number 
 5. **Lightweight and minimalistic** - I do not want my text editor to hog more resources than the code I'm trying to run. Also, it should have a minimalistic design and not be distracting while I'm trying to focus.
 6. **Dark theme** - Are you really a coder if you're not using a dark theme? Well, I generally tend to work late in the day when it's kinda dark outside, so a light theme text editor hurts my eyes. I could also just turn on the lights, but this seemed more convenient.
 
-I was using Visual Studio Code for the longest time, as it checked most of the boxes for me at the time. To master the text editor, you need to be familiar with the shortcuts so that you don't spend any time thinking about how to open the sidebar or delete a line. It does not require a lot of effort to master VSCode, and it is a pretty good editor for most people. It is also pretty easy to make plugins for VSCode. Back when I was learning Javascript/Typescript, I built a VSCode plugin called [Mongo Snippets](https://marketplace.visualstudio.com/items?itemName=roerohan.mongo-snippets-for-node-js). It used to be the most popular Mongo extension on VSCode (with almost 190k installs) until the MongoDB team released their official extension.
+I was using Visual Studio Code for the longest time, as it checked most of the boxes for me at the time. To master the text editor, you need to be familiar with the shortcuts so that you don't spend any time thinking about how to open the sidebar or delete a line. It does not require a lot of effort to master VSCode, and it is a pretty good editor for most people. It is also pretty easy to make plugins for VSCode. Back when I was learning Javascript/Typescript, I built a VSCode plugin called [Mongo Snippets](https://marketplace.visualstudio.com/items?itemName=roerohan.mongo-snippets-for-node-js). It used to be the most popular Mongo extension on VSCode (with almost 190k installs) until the MongoDB team released its official extension.
 
 For the past few months, I've been using [Neovim](https://neovim.io/) as my primary text editor, and I feel very productive using it. Of course, it checks all the boxes in my checklist. It's extremely customizable; you can configure Neovim using a simple yet powerful programming language called Lua. Since the editor itself is programmable, it gives you a lot of scope for configuring it according to your needs.
 
