@@ -14,6 +14,8 @@ In brief, your typing speed is proportional to the time it will take for you to 
 
 There are a number of websites where you can practice typing. I would recommend [Monkeytype](https://monkeytype.com/) as I love the minimal interface and the infographics that indicate how your typing session went. Besides, I'm a sucker for keyboard shortcuts, and Monkeytype has a bunch of convenient shortcuts to navigate around their website.
 
+![not to brag but](./monkeytype.png)
+
 For those with a competitive spirit, [TypeRacer](https://play.typeracer.com/) is the ultimate arena to put your typing skills to the test! Here, you can improve your typing speed while racing against others.
 
 What's a good typing speed? I'd say around 60 to 70 words per minute should be a good short-term target. Your typing speed will keep improving over time, but you don't need to sweat once you can comfortably type at this pace.
