@@ -1,7 +1,7 @@
 ---
 title: How to Protect Yourself Online
 date: "2024-03-03T23:44:31.102Z"
-description: ""
+description: "A narrative about how my friend fell for one of the most elaborate scams I've seen recently, and how you can learn from his mistakes."
 ---
 
 > "Even the most intelligent individuals may find themselves outsmarted under stress, as the pressure of the moment can cloud judgment and compromise decision-making."
@@ -34,7 +34,7 @@ Uncharacteristically, Mike was somewhat worried at this point. He had completely
 
 Mike was pretty tired at this point, it had been hours since he got the first call from FedEx, and Dr. Balsing kept him waiting. He really wanted to get out of this room he was stuck in for so long. Finally, Dr. Balsing told Mike that the finance department had created a "bogus" account in the name of "AEXYZW", and he should transfer an amount of Rs. 89,898 so that they could confirm that the transactions from his account were not involved in the money laundering case. Mike wondered to himself that he'd probably do the same, as it would be easy to identify a transaction of Rs. 89,898 using a regular expression. He agreed to do it, at least that would get him out of this mess. They also sent him a document with an official RBI stamp saying that the money would be credited back to his account within 15 minutes. Finally, Dr. Balsing suggested that the "AEXYZW" account name would be quite suspicious and if someone had hacked into Mike's account, he'd get cautious if he saw that transaction. He changed the bogus account's name to "S E ENTERPRISES" and asked Mike to make the transaction.
 
-Mike sent a screenshot of the transaction hoping that finally he'll be proven innocent. They were on call for another hour, with no communication from Dr. Balsing. Mike had had it, he told Dr. Balsing that he really had to go to the washroom, just so that he could get out of his room. Dr. Balsing, in a concerned tone, asked him if he had lunch. Mike was surprised at the shift in tone and was relieved to be able to go out of his room. After having eaten a little something, Mike joined the call again, and he was told that the investigation was to be continued in the morning, so he could drop off the call and carry on with his regular activities, as long as he kept informing them every hour about his whereabouts.
+Mike sent a screenshot of the transaction hoping that finally he'll be proven innocent. They were on call for another hour, with no communication from Dr. Balsing. Mike had had it, he told Dr. Balsing that he had to go to the washroom, just so that he could get out of his room. Dr. Balsing, in a concerned tone, asked him if he had lunch. Mike was surprised at the shift in tone and was relieved to be able to go out of his room. After having eaten a little something, Mike joined the call again, and he was told that the investigation was to be continued in the morning, so he could drop off the call and carry on with his regular activities, as long as he kept informing them every hour about his whereabouts.
 
 Tired and weary, Mike obliged. He was finally able to take a breath of fresh air on his balcony when he wondered who this money launderer was, and how has he not heard about him. Then, he wondered if Naresh Gupta Banerjee was a weird name, and decided to look him up. To his horror, he stumbled upon [this article](https://timesofindia.indiatimes.com/city/mumbai/fraudsters-use-fake-cop-id-card-to-commit-cybercrime-in-mumbai/articleshow/97428271.cms).
 
@@ -43,4 +43,8 @@ Tired and weary, Mike obliged. He was finally able to take a breath of fresh air
 
 He immediately called his bank and reported the transaction ID for fraud. He demanded that all outgoing transactions from his account be canceled immediately. It didn't matter though, as the damage was already done. What was just an intelligent regular expression to him was the amount of money he had lost today.
 
-Like I said before - you might think "That was so obvious, I wouldn't fall for something like that". Well, so did Mike, and 4 other people in the last 15 days; and they all got robbed of huge sums of money. Protecting ourselves online requires not only knowledge and awareness but also humility and a willingness to acknowledge our vulnerabilities. Cybercriminals keep coming up with novel methods of cybercrime that might fool the smartest amongst us, it's wise to hear someone else's story and learn from their mistakes if you do not want to be a victim yourself.
+Like I said before - you might think "That was so obvious, I wouldn't fall for something like that". Well, so did Mike, and 4 other people in the last 15 days; and they all got robbed of huge sums of money.
+
+Mike gave away information about his credit card being delivered, which the scammers later used to gain his trust. Under his predicament, he didn't even get his ID cross-checked, he just gave it away to Naresh. Small pieces of information piled up, which gave the fraudsters enough information to gain his trust. Anyone could end up in Mike's situation, and many of us probably have. Come forward and share your story, so that you can save someone else from making the same mistakes.
+
+Protecting ourselves online requires not only knowledge and awareness but also humility and a willingness to acknowledge our vulnerabilities. Cybercriminals keep coming up with novel methods of cybercrime that might fool the smartest amongst us, it's wise to hear someone else's story and learn from their mistakes if you do not want to be a victim yourself.
