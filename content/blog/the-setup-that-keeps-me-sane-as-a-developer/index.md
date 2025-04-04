@@ -6,7 +6,7 @@ description: "My carefully optimized (and slightly over-engineered) development 
 
 ![meme](./meme.png)
 
-I have a borderline obsession with good dev setups. The right tools don’t just make me faster, they keep me from slowly losing my mind. This post is mainly for my future self - so I don’t have to piece everything back together when I inevitably break something - but also for anyone who wants a efficient, low-effort setup.
+I have a borderline obsession with good dev setups. The right tools don’t just make me faster, they keep me from slowly losing my mind. This post is mainly for my future self - so I don’t have to piece everything back together when I inevitably break something - but also for anyone who wants an efficient, low-effort setup.
 
 I think my setup is pretty cool (biased opinion, of course), after doom-scrolling GitHub repos I've finally found a set of tools that make me feel at home. Coming from years of using Linux, where I had complete control over everything, switching to macOS was a bit of an adjustment. I had to find the right tools and workflows to make macOS feel like home, and this post is a deep dive into exactly that.
 
@@ -38,7 +38,7 @@ I replaced Spotlight Search with Raycast - because let’s be honest, no one is 
 
 ## Terminal
 
-I spend an absurd amount of time in my terminal. Naturally, the default macOS terminal wasn’t going to cut it - it was ass. I’d heard a lot of buzz about Warp from social media and coworkers, so I figured I’d give it a shot.
+I spend an absurd amount of time in my terminal. Naturally, the default macOS terminal wasn’t going to cut it - it was ass. I’d heard a lot of buzz about [Warp](https://github.com/warpdotdev/Warp) from social media and coworkers, so I figured I’d give it a shot.
 
 At first, it felt... weird. Having to log in to a terminal app just to run `ls` seemed unnecessary, but I wanted to give it a fair chance. Spoiler: it didn’t win me over. The only time I found its AI remotely useful was when I used it to install Docker - when I was too lazy to copy-paste commands from my browser. Beyond that, it felt slow, didn’t add much real value, and played terribly with [tmux](https://github.com/tmux/tmux). After a month of pain, tolerance, and mild regret, I finally pulled the plug.
 
