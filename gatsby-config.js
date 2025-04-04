@@ -11,7 +11,7 @@
 module.exports = {
   pathPrefix: "/blog",
   siteMetadata: {
-    title: `Nerd's Notebook`,
+    title: `Notebook`,
     author: {
       name: `Rohan`,
       summary: `By day, I'm a professional problem solver, tackling the intricacies of Software Engineering. When the sun settles, I transform into a part-time meme enthusiast, finding humor in life's quirks and curiosities.`,
@@ -107,7 +107,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Nerd's Notebook RSS Feed",
+            title: "Notebook RSS Feed",
           },
         ],
       },
@@ -115,8 +115,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Nerd's Notebook`,
-        short_name: `Nerd's Notebook`,
+        name: `Notebook`,
+        short_name: `Notebook`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
