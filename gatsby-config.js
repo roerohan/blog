@@ -8,8 +8,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 
+const pathPrefix = process.env.PATH_PREFIX ?? "";
+
 module.exports = {
-  pathPrefix: "/blog",
+  pathPrefix,
   siteMetadata: {
     title: `Notebook`,
     author: {
