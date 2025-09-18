@@ -58,13 +58,13 @@ const Bio = () => {
           ></pre>
           <br />
           <pre>
-            You can follow me on{" "}
+            You can find me on{" "}
             <a
-              href={`https://twitter.com/${social?.twitter || ``}`}
+              href={`https://x.com/${social?.twitter || ``}`}
               target="_blank"
               rel="noreferrer"
             >
-              Twitter (X)
+              X (formerly Twitter)
             </a>
             ,{" "}
             <a
