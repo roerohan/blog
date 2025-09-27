@@ -51,8 +51,10 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
+              ignoreFileExtensions: [`gif`, `mp4`],
             },
           },
+          `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
